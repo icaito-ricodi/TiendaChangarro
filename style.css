@@ -1,0 +1,149 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSe1YWWaWhWn-CV0HondKYCIowTYrFD9iQwA&s");
+  min-height: 5vh;
+}
+
+.container {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/891/132/non_2x/abstract-gradient-background-dark-blue-green-red-perfect-for-design-wallpaper-promotion-presentation-website-banner-etc-illustration-background-vector.jpg");
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+h1, h2 {
+  color: #0bec3c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-product label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.add-product input[type="text"],
+.add-product input[type="number"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-product input:hover[type="text"],
+.add-product input:hover[type="number"] {
+  background: rgb(218, 215, 215);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-product button {
+  padding: 10px 20px;
+  background-color: #2517ee;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-product button:hover {
+  background-color: #09f540;
+  color: black;
+}
+
+.inventory h2, .sales h2 {
+  margin-top: 30px;
+}
+
+.inventory ul {
+  list-style: none;
+  padding: 0;
+}
+
+.inventory li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.inventory li:last-child {
+  border-bottom: none;
+}
+
+.inventory .product-info {
+  flex-grow: 1;
+}
+
+.inventory .actions button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.inventory .actions .sell-btn {
+  background-color: #007bff;
+  color: rgb(17, 17, 17);
+}
+
+.inventory .actions .sell-btn:hover {
+  background-color: #00b300;
+  color: rgb(243, 237, 237);
+}
+
+.inventory .actions .delete-btn:hover {
+  background: red;
+  color: green;
+}
+
+.sales {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#total-ventas {
+  color: #dc3545;
+}
+
+#total-ventas:hover {
+  color: #1df115;
+  cursor: pointer;
+}
+
+ul {
+  color: white;
+}
+
+p {
+  background: rgb(239, 243, 7);
+}
+
+.reset-ventas-btn {
+  padding: 10px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.reset-ventas-btn:hover {
+  background-color: #c82333;
+  color: black;
+}

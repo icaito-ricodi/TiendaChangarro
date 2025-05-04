@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="pagina web de mi changarro">
+    <meta author="Ricardo Diosdado">
+    <title>Tiendita</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logorgb.gif" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Control de mi Changarro</h1>
+
+        <div class="add-product">
+            <h2>Nuevo Producto</h2>
+            <label for="nombre-producto">Nombre:</label>
+            <input type="text" id="nombre-producto" placeholder="Nombre del producto">
+
+            <label for="cantidad-producto">Cantidad:</label>
+            <input type="number" id="cantidad-producto" placeholder="Productos en Existencia" min="1">
+
+            <label for="precio-producto">Precio:</label>
+            <input type="number" id="precio-producto" placeholder="Precio Unitario" min="0.01" step="0.01">
+
+            <button id="agregar-producto-btn">Agregar al Inventario</button>
+        </div>
+
+        <div class="inventory">
+            <h2>Mi inventario...</h2>
+            <ul id="lista-productos">
+                </ul>
+        </div>
+
+        <div class="sales">
+            <h2>Ventas del Día!</h2>
+            <p>Total de Ventas: $<span id="total-ventas">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
