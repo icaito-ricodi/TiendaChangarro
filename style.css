@@ -21,6 +21,13 @@ h1 {
   margin-bottom: 20px;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 h2 {
   color: #0bec3c;
   text-align: center;
