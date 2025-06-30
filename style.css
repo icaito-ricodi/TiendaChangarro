@@ -160,3 +160,22 @@ p {
   background-color: #c82333;
   color: black;
 }
+
+.contenedor-logo {
+  width: 80%;
+  max-width: 300px;
+}
+
+.logo-rebote {
+  width: 50px;
+  animation: rebote 1s ease-out;
+}
+
+@keyframes rebote {
+  0%   { transform: translateY(-100px); }
+  30%  { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  70%  { transform: translateY(0); }
+  85%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
