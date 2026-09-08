@@ -169,6 +169,7 @@ p {
 .logo-rebote {
   width: 50px;
   animation: rebote 1s ease-out;
+  cursor: pointer;
 }
 
 @keyframes rebote {
