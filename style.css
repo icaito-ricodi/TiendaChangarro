@@ -164,12 +164,23 @@ p {
 .contenedor-logo {
   width: 80%;
   max-width: 300px;
+  position: relative;
+  z-index: 1000;
+}
+
+.contenedor-logo a {
+  display: inline-block;
+  position: relative;
+  z-index: 1001;
+  cursor: pointer;
 }
 
 .logo-rebote {
   width: 50px;
   animation: rebote 1s ease-out;
   cursor: pointer;
+  position: relative;
+  z-index: 1002;
 }
 
 @keyframes rebote {
